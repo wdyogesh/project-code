@@ -15,7 +15,7 @@
         "torann/hashids": "^2.0",
         "cartalyst/stripe-laravel": "2.0.*"
     },
-    "require-dev": {
+    "require-dev": {p
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.7"
