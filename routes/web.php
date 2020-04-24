@@ -18,7 +18,7 @@ Route::group(['domain' => 'intell-comm.com'], function () {
             Route::get('dashboard', 'AdminController@dashboard');
             /*main admin dashboard-page displaying end*/
 
-            /*managers client-management managemant start*/
+            /*managers client-management managemant start added by yogesh Vishwakarma*/
             Route::get('client-management', 'ClientController@index');
             Route::get('create-business-client', 'ClientController@createBusinessClient');
             Route::post('create-business-client', 'ClientController@postCreateBusinessClient');
